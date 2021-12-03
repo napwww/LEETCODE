@@ -13,7 +13,7 @@ int next_n(int n)
         d = n % 10;
         sum += d*d;
         n /= 10; 
-    }
+    } 
     return sum; 
 }
 
