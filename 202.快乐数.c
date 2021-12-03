@@ -14,7 +14,7 @@ int next_n(int n)
         sum += d*d;
         n /= 10; 
     }
-    return sum;
+    return sum; 
 }
 
 bool contains (int *history,int size,int n) //检查n是否在history出现过
