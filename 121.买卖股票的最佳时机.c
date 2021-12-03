@@ -16,6 +16,8 @@ int maxProfit(int* prices, int pricesSize){
     } 
     return maxpro;
 
+    //每一个元素减去前面最小元素即可，然后每次遇到更小的就更新就行
+
 }
 // @lc code=end
 /*
