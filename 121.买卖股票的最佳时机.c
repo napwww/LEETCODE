@@ -13,7 +13,7 @@ int maxProfit(int* prices, int pricesSize){
     {
         min = min > prices[i] ? prices[i] : min;
         maxpro = maxpro < prices[i] - min ? prices[i] - min : maxpro;
-    }
+    } 
     return maxpro;
 
 }
