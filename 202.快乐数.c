@@ -1,7 +1,7 @@
  * @lc app=leetcode.cn id=202 lang=c
  *
  * [202] 快乐数
- */
+ * /
 
 // @lc code=start
 int next_n(int n)
